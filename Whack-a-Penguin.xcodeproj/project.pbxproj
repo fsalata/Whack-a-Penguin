@@ -14,6 +14,7 @@
 		0050B423234BB2DF00847E9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0050B421234BB2DF00847E9D /* Main.storyboard */; };
 		0050B425234BB2E100847E9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0050B424234BB2E100847E9D /* Assets.xcassets */; };
 		0050B428234BB2E100847E9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0050B426234BB2E100847E9D /* LaunchScreen.storyboard */; };
+		0050B433234BC09300847E9D /* WhackSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0050B432234BC09300847E9D /* WhackSlot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		0050B429234BB2E100847E9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0050B430234BB9DE00847E9D /* whack.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = whack.caf; sourceTree = "<group>"; };
 		0050B431234BB9DE00847E9D /* whackBad.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = whackBad.caf; sourceTree = "<group>"; };
+		0050B432234BC09300847E9D /* WhackSlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhackSlot.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				0050B417234BB2DF00847E9D /* AppDelegate.swift */,
 				0050B419234BB2DF00847E9D /* GameScene.sks */,
 				0050B41D234BB2DF00847E9D /* GameScene.swift */,
+				0050B432234BC09300847E9D /* WhackSlot.swift */,
 				0050B41F234BB2DF00847E9D /* GameViewController.swift */,
 				0050B421234BB2DF00847E9D /* Main.storyboard */,
 				0050B424234BB2E100847E9D /* Assets.xcassets */,
@@ -156,6 +159,7 @@
 			files = (
 				0050B41E234BB2DF00847E9D /* GameScene.swift in Sources */,
 				0050B420234BB2DF00847E9D /* GameViewController.swift in Sources */,
+				0050B433234BC09300847E9D /* WhackSlot.swift in Sources */,
 				0050B418234BB2DF00847E9D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.fabiosalata.Whack-a-Penguin";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -330,7 +334,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.fabiosalata.Whack-a-Penguin";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
